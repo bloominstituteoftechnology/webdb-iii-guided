@@ -10,3 +10,6 @@ inner join OrderDetails as od on p.productId = od.productId
 group by 1
 order by sold desc
 limit 5
+
+
+group by one works the same as order by 1
